@@ -1,0 +1,14 @@
+{
+    "name": "artnum/tadada",
+    "description": "Server side for tadada auth",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaDaDa\\": "src/"
+        }
+    }
+}
