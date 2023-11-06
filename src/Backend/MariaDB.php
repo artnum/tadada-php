@@ -1,11 +1,11 @@
 <?php
 namespace TaDaDa\Backend;
 
-use Generator;
 use PDO;
+use Generator;
 use TaDaDa\Auth;
 
-class SQL implements Backend {
+class MariaDB implements Backend {
     const DEFAULT_TABLE_NAME = 'tadada_auth';
     protected $pdo;
     protected $table;

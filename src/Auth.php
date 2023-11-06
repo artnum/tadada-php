@@ -1,7 +1,6 @@
 <?php
 namespace TaDaDa;
 
-use PDO;
 use Exception;
 use TaDaDa\Backend\Backend;
 
